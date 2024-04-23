@@ -20,6 +20,7 @@ class AppSettings:
         return cls._instance
 
     def __init__(self):
+        """ O init será chamado todas as vezes """
         self.tema = 'O tema escuro'
         self.font = '18px'
 
